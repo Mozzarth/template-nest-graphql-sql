@@ -1,0 +1,3 @@
+CREATE USER if not exists 'uPrueba'@'%' IDENTIFIED BY 'YOUR_PASS';
+GRANT SELECT, INSERT, UPDATE, CREATE ON distribuidora.* TO 'uPrueba'@'%';
+FLUSH PRIVILEGES;
